@@ -376,7 +376,7 @@
   font-style: normal;
   font-weight: 400;
   color: #FFFFFF;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: center;
   font-weight: 700;
 }
@@ -422,6 +422,49 @@
   font-size: 0.8rem;
   color: #FFFFFF;
   text-align: center;
+}
+
+/* footer */
+.footer .divFooter {
+  margin: 0;
+  padding: 0;
+  padding: 1rem;
+  background-color: #FFFFFF;
+}
+.footer .divFooter p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #070707;
+  font-size: 0.8rem;
+  font-weight: 800;
+  border-bottom: 1px solid #2A4D14;
+}
+.footer .divFooter .contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer .divFooter .contacto div {
+  padding: 0.5rem 0;
+  border-bottom: 0.5px solid #070707;
+}
+.footer .divFooter .contacto div p {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #070707;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.15rem 0;
+  border: none;
 }
 
 /* TABLET */ /* DESKTOP */

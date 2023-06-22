@@ -316,7 +316,7 @@
             @include cero;
             @include letraDover;
             color: $blanco;
-            font-size: 1.2rem;
+            font-size: 1rem;
             text-align: center;
             font-weight: 700;
         }
@@ -353,6 +353,43 @@
                 color: $blanco;
                 text-align: center;
             }
+        }
+    }
+}
+
+/* footer */
+.footer{
+    .divFooter{
+        @include cero;
+        padding: 1rem;
+        background-color: $blanco;
+        p{
+            text-align: center;
+            @include cero;
+            @include letraInfo;
+            color: $oscuro;
+            font-size: 0.8rem;
+            font-weight: 800;
+            border-bottom: 1px solid $verde;
+        }
+        .contacto{
+            @include flex;
+            flex-direction: column;
+            div{
+                padding: 0.5rem 0;
+                border-bottom: 0.5px solid $oscuro;
+                p{
+                    @include cero;
+                    @include letraInfo;
+                    color: $oscuro;
+                    font-size: 0.8rem;
+                    text-align: center;
+                    font-weight: 600;
+                    padding: 0.15rem 0;
+                    border: none;
+                }
+            }
+            
         }
     }
 }
