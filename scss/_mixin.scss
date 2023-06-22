@@ -1,0 +1,48 @@
+/* MIX IN */
+
+/* letra logo */
+@mixin letraLogo {
+    font-family: 'Alegreya SC', serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* letra info */
+@mixin letraInfo{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* letra dover */
+@mixin letraDover {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* letra publicidad */
+@mixin letraPublicidad {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* cero margin/padding */
+@mixin cero {
+    margin: 0;
+    padding: 0;    
+}
+
+/* centrado */
+@mixin centrado {
+    display: block;
+    margin: auto;
+}
+
+/* flex */
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

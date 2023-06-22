@@ -1,0 +1,345 @@
+/* imports */ /* VARIABLES */
+/* colores */
+/* MIX IN */
+/* letra logo */
+/* letra info */
+/* letra dover */
+/* letra publicidad */
+/* cero margin/padding */
+/* centrado */
+/* flex */
+/* MOBILE */
+/* NAVBAR */
+.navbar {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5rem;
+  transition: 0.4s;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar .container-fluid {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .container-fluid .navbarMobile .navbar-brand {
+  text-decoration: none;
+  font-family: "Alegreya SC", serif;
+  font-style: normal;
+  font-weight: 800;
+  color: #931F1D;
+  font-size: 1.4rem;
+  margin: 0;
+  padding-right: 1rem;
+  border-right: 0.05rem solid #070707;
+  transition: 0.4s;
+}
+.navbar .container-fluid .navbarMobile .navbar-brand:hover {
+  color: #530907;
+}
+.navbar .container-fluid .navbarMobile .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  transition: 0.4s;
+}
+.navbar .container-fluid .navbarMobile .navbar-toggler {
+  color: #070707;
+}
+.navbar .container-fluid .navbar-collapse {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+  margin: 0;
+  padding: 0;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-toggle {
+  text-decoration: none;
+  color: #2A4D14;
+  text-align: center;
+  margin: 0;
+  padding: 0.25rem;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #2A4D14;
+  text-align: center;
+  margin: 0;
+  padding: 0.25rem;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+  margin: 0;
+  padding: 0;
+}
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
+  margin: 0;
+  padding: 0.25rem;
+  text-transform: none;
+  font-size: 0.9rem;
+  color: #2A4D14;
+  text-align: center;
+}
+
+/* section carousel */
+.indexCarousel {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.indexCarousel .carousel .carousel-inner div img {
+  width: 100%;
+  height: 6rem;
+}
+
+/* section links */
+.indexLinks {
+  width: 100%;
+  background-color: #E2F3E9;
+}
+.indexLinks .contenedorLinks {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.indexLinks .contenedorLinks a {
+  margin: 0;
+  padding: 0;
+  padding: 0.5rem 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #2A4D14;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #2A4D14;
+  width: 100%;
+}
+.indexLinks .contenedorLinks a:hover {
+  background-color: #2A4D14;
+  color: #FFFFFF;
+}
+.indexLinks .contenedorLinks .link1 {
+  border-top: 1px solid #2A4D14;
+}
+
+/* section atencion */
+.indexAtencion {
+  width: 100%;
+  height: 10rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.indexAtencion h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  padding: 2rem;
+}
+
+/* section  publicidades*/
+.indexPublicidades .publicidades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.indexPublicidades .publicidades .publiIndividual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #FFFFFF;
+}
+.indexPublicidades .publicidades .publiIndividual div {
+  width: 50%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.indexPublicidades .publicidades .publiIndividual div h5 {
+  color: #2A4D14;
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: right;
+  margin: 0;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+}
+.indexPublicidades .publicidades .publiIndividual div p {
+  color: #EE7B30;
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+  margin: 0;
+  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+.indexPublicidades .publicidades .publiIndividual div .h5Left {
+  text-align: left;
+  margin: 0;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+}
+.indexPublicidades .publicidades .publiIndividual div .pLeft {
+  text-align: left;
+  margin: 0;
+  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+.indexPublicidades .publicidades .publiIndividual img {
+  width: 50%;
+  height: 33%;
+}
+
+/* section medios de pago */
+.indexMediosPago {
+  width: 100%;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.indexMediosPago .h3MediosPago h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  padding: 2rem;
+}
+.indexMediosPago .divMediosPago {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  padding: 0rem 2rem;
+}
+.indexMediosPago .divMediosPago div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33%;
+}
+.indexMediosPago .divMediosPago div i {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0.5rem;
+}
+.indexMediosPago .divMediosPago div p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding: 0 0.25rem;
+}
+
+/* section publicidades varias */
+.indexPubli__varias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.indexPubli__varias div {
+  background-color: #FFFFFF;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12rem;
+  /* .publiIzq{
+
+  } */
+}
+.indexPubli__varias div img {
+  height: 10rem;
+  width: auto;
+  padding: 0 3rem;
+}
+.indexPubli__varias div p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: left;
+  font-weight: 650;
+  margin: 0;
+  padding: 0 3rem;
+}
+.indexPubli__varias div .pVerde {
+  color: #2A4D14;
+}
+.indexPubli__varias div .pAmarillo {
+  color: #EE7B30;
+}
+.indexPubli__varias div .divNSA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.indexPubli__varias div .divNSA p {
+  padding: 0 2rem;
+}
+
+/* TABLET */ /* DESKTOP */
+/* generales */
+#inicio {
+  background-color: #931F1D;
+}/*# sourceMappingURL=estilo.css.map */

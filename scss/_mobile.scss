@@ -1,0 +1,295 @@
+/* MOBILE */
+
+/* NAVBAR */
+.navbar{
+    @include cero;
+    padding-top: 0.5rem;
+    transition: 0.4s;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .container-fluid{
+        @include cero;
+        background-color: $blanco;
+        @include flex;
+        justify-content: space-around;
+        .navbarMobile{
+            .navbar-brand{
+                text-decoration: none;
+                @include letraLogo;
+                color: $rojo;
+                font-size: 1.4rem;
+                margin: 0;
+                padding-right: 1rem;
+                border-right: 0.05rem solid $oscuro;
+                transition: 0.4s;
+                &:hover{
+                    color: $bordo;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                    transition: 0.4s;
+                }
+            }
+            .navbar-toggler{
+                color: $oscuro;
+            }
+        }
+        .navbar-collapse{
+            @include letraDover;
+            font-size: 1rem;
+            .navbar-nav{
+                @include cero;
+                padding-bottom: 0.25rem;
+                @include flex;
+                flex-direction: column;
+                transition: 0.4s;
+                .nav-item{ 
+                    @include cero;
+                    .dropdown-toggle{
+                        text-decoration: none; 
+                        color: $verde; 
+                        text-align: center;
+                        margin: 0;
+                        padding: 0.25rem;
+                    }
+                    .nav-link{
+                        color: $verde; 
+                        text-align: center;
+                        margin: 0;
+                        padding: 0.25rem;
+                    }
+                    .dropdown-menu{
+                        @include cero;
+                        li{
+                            .dropdown-item{
+                                margin: 0;
+                                padding: 0.25rem;
+                                text-transform: none;
+                                font-size: 0.9rem;
+                                color: $verde;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+        
+}
+
+/* section carousel */
+.indexCarousel{
+    width: 100%;
+    @include cero;
+    .carousel{
+        .carousel-inner{
+            div{
+                img{
+                    width: 100%;
+                    height: 6rem;
+                }
+            }
+        }
+    }
+}
+
+/* section links */
+.indexLinks{
+    width: 100%;
+    background-color: $clarito;
+    .contenedorLinks{
+        height: 100%;
+        @include cero;
+        padding: 0.5rem 0;
+        @include flex;
+        flex-direction: column;
+        a{
+            @include cero;
+            padding: 0.5rem 0;
+            @include letraInfo;
+            color: $verde;
+            font-size: 1rem;
+            text-align: center;
+            text-decoration: none;
+            border-bottom: 1px solid $verde;
+            width: 100%;
+            &:hover{
+                background-color: $verde;
+                color: $blanco;
+            }
+        }
+        .link1{
+            border-top: 1px solid $verde;
+        }
+    }
+}
+
+/* section atencion */
+.indexAtencion{
+    width: 100%;
+    height: 10rem;
+    @include cero;
+    @include flex;
+    h3{
+        @include letraDover;
+        font-size: 1.2rem;
+        color: $blanco;
+        text-align: center;
+        font-weight: 700;
+        @include cero;
+        padding: 2rem;
+    }
+}
+
+/* section  publicidades*/
+.indexPublicidades{
+    .publicidades{
+        @include flex;
+        flex-direction: column;
+        .publiIndividual{
+            @include flex;
+            flex-direction: row;
+            background-color: $blanco;
+            div{
+                width: 50%;
+                height: 33%;
+                @include flex;
+                flex-direction: column;
+                align-items: flex-end;
+                h5{
+                    color: $verde;
+                    @include letraPublicidad;
+                    font-size: 1rem;
+                    font-weight: 700;
+                    text-align: right;
+                    margin: 0;
+                    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+                }
+                p{
+                    color: $amarillo;
+                    @include letraPublicidad;
+                    font-size: 0.9rem;
+                    font-weight: 500;
+                    text-align: right;
+                    margin: 0;
+                    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+                }
+                .h5Left{
+                    text-align: left;
+                    margin: 0;
+                    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+                }
+                .pLeft{
+                    text-align: left;
+                    margin: 0;
+                    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+                }
+            }
+            img{
+                width: 50%;
+                height: 33%;
+            }   
+        }
+    }
+}
+
+/* section medios de pago */
+.indexMediosPago{
+    width: 100%;
+    height: 15rem;
+    @include cero;
+    @include flex;
+    flex-direction: column;
+    .h3MediosPago{
+        h3{
+            @include letraDover;
+            font-size: 1.2rem;
+            color: $blanco;
+            text-align: center;
+            font-weight: 700;
+            @include cero;
+            padding: 2rem;
+        }
+    }
+    .divMediosPago{
+        @include flex;
+        flex-direction: row;
+        align-items: flex-start;
+        @include cero;
+        padding: 0rem 2rem;
+        div{
+            @include flex;
+            flex-direction: column;
+            width: 33%;
+            i{
+                font-size: 1.5rem;
+                color: $blanco;
+                text-align: center;
+                padding: 0.5rem;
+            }
+            p{
+                @include letraDover;
+                font-size: 0.8rem;
+                color: $blanco;
+                text-align: center;
+                @include cero;
+                padding: 0 0.25rem;
+            }
+        }
+    }
+}
+
+/* section publicidades varias */
+.indexPubli__varias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    div{
+        background-color: $blanco;
+        margin: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 12rem;
+        /* .publiIzq{
+            
+        } */
+        img{
+            height: 10rem;
+            width: auto;
+            padding: 0 3rem;
+        }
+        p{
+            @include letraPublicidad;
+            font-size: 1.6rem;
+            text-align: left;
+            font-weight: 650;
+            margin: 0;
+            padding: 0 3rem;
+        }
+        .pVerde{
+            color: $verde;
+        }
+        .pAmarillo{
+            color: $amarillo;
+        }
+        .divNSA{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            p{
+                padding: 0 2rem;
+            }
+        }
+
+    }
+}
