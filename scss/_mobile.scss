@@ -37,7 +37,7 @@
             }
         }
         .navbar-collapse{
-            @include letraDover;
+            @include letraInfo;
             font-size: 1rem;
             .navbar-nav{
                 @include cero;
@@ -47,6 +47,8 @@
                 transition: 0.4s;
                 .nav-item{ 
                     @include cero;
+                    border-bottom: 1px solid $verde;
+                    width: 100%;
                     .dropdown-toggle{
                         text-decoration: none; 
                         color: $verde; 
@@ -59,9 +61,16 @@
                         text-align: center;
                         margin: 0;
                         padding: 0.25rem;
+                        transition: 0.3s all;
+                        &:hover{
+                            background-color: $verde;
+                            color: $blanco;
+                            transition: 0.3s all;
+                        }
                     }
                     .dropdown-menu{
                         @include cero;
+                        border: none;
                         li{
                             .dropdown-item{
                                 margin: 0;
@@ -70,10 +79,19 @@
                                 font-size: 0.9rem;
                                 color: $verde;
                                 text-align: center;
+                                transition: 0.3s all;
+                                &:hover{
+                                    background-color: $verde;
+                                    color: $blanco;
+                                    transition: 0.3s all;
+                                }
                             }
                         }
                     }
                     
+                }
+                #li1{
+                    border-top: 1px solid $verde;
                 }
             }
         }
@@ -117,9 +135,11 @@
             text-decoration: none;
             border-bottom: 1px solid $verde;
             width: 100%;
+            transition: 0.3s all;
             &:hover{
                 background-color: $verde;
                 color: $blanco;
+                transition: 0.3s all;
             }
         }
         .link1{
@@ -280,6 +300,59 @@
         }
         .publiDcha{
             color: $amarillo;
+        }
+    }
+}
+
+/* section servicios */
+.indexServicios{
+    .servicios{
+        @include flex;
+        @include cero;
+        width: 100%;
+        height: 5rem;
+        background-color: $verde;
+        p{
+            @include cero;
+            @include letraDover;
+            color: $blanco;
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 700;
+        }
+    }
+}
+
+/* ubicacion */
+.indexUbicacion{
+    .ubicacion{
+        @include cero;
+        padding: 1rem 0;
+        @include flex;
+        flex-direction: column;
+        p{
+            @include cero;
+            padding-bottom: 0.25rem;
+            @include letraInfo;
+            font-size: 0.8rem;
+            color: $blanco;
+        }
+        a{
+            text-decoration: none;
+            @include flex;
+            flex-direction: column;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            p{
+                @include cero;
+                padding-top: 0.5rem;
+                @include letraInfo;
+                font-size: 0.8rem;
+                color: $blanco;
+                text-align: center;
+            }
         }
     }
 }
