@@ -288,54 +288,54 @@
 
 /* section publicidades varias */
 .indexPubli__varias {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
   width: 100%;
 }
-.indexPubli__varias div {
-  background-color: #FFFFFF;
-  margin: 1rem;
+.indexPubli__varias .publicidadesVarias {
+  margin: 0;
+  padding: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.indexPubli__varias .publicidadesVarias div {
+  margin: 0;
+  padding: 0;
+  margin: 1rem 0;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
   width: 100%;
-  height: 12rem;
-  /* .publiIzq{
-
-  } */
+  height: 10em;
 }
-.indexPubli__varias div img {
-  height: 10rem;
+.indexPubli__varias .publicidadesVarias div img {
+  margin: 0;
+  padding: 0;
+  height: 7rem;
   width: auto;
-  padding: 0 3rem;
+  padding: 0 0.5rem;
 }
-.indexPubli__varias div p {
+.indexPubli__varias .publicidadesVarias div p {
+  margin: 0;
+  padding: 0;
   font-family: "Alegreya Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1rem;
   text-align: left;
-  font-weight: 650;
-  margin: 0;
-  padding: 0 3rem;
+  font-weight: 600;
+  padding: 0 0.5rem;
 }
-.indexPubli__varias div .pVerde {
+.indexPubli__varias .publicidadesVarias .publiIzq {
   color: #2A4D14;
 }
-.indexPubli__varias div .pAmarillo {
+.indexPubli__varias .publicidadesVarias .publiDcha {
   color: #EE7B30;
-}
-.indexPubli__varias div .divNSA {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.indexPubli__varias div .divNSA p {
-  padding: 0 2rem;
 }
 
 /* TABLET */ /* DESKTOP */

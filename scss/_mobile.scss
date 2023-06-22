@@ -245,51 +245,41 @@
 
 /* section publicidades varias */
 .indexPubli__varias{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    @include cero;
     width: 100%;
-    div{
-        background-color: $blanco;
-        margin: 1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        height: 12rem;
-        /* .publiIzq{
-            
-        } */
-        img{
-            height: 10rem;
-            width: auto;
-            padding: 0 3rem;
-        }
-        p{
-            @include letraPublicidad;
-            font-size: 1.6rem;
-            text-align: left;
-            font-weight: 650;
-            margin: 0;
-            padding: 0 3rem;
-        }
-        .pVerde{
-            color: $verde;
-        }
-        .pAmarillo{
-            color: $amarillo;
-        }
-        .divNSA{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
+    .publicidadesVarias{
+        @include cero;
+        @include flex;
+        flex-direction: column;
+        div{
+            @include cero;
+            margin: 1rem 0;
+            background-color: $blanco;
+            @include flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            height: 10em;
+            img{
+                @include cero;
+                height: 7rem;
+                width: auto;
+                padding: 0 0.5rem;
+            }
             p{
-                padding: 0 2rem;
+                @include cero;
+                @include letraPublicidad;
+                font-size: 1rem;
+                text-align: left;
+                font-weight: 600;
+                padding: 0 0.5rem;
             }
         }
-
+        .publiIzq{
+            color: $verde;
+        }
+        .publiDcha{
+            color: $amarillo;
+        }
     }
 }
