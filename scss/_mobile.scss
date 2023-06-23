@@ -118,7 +118,7 @@
 /* section links */
 .indexLinks{
     width: 100%;
-    background-color: $clarito;
+    background-color: $blanco;
     .contenedorLinks{
         height: 100%;
         @include cero;
@@ -387,6 +387,9 @@
                     font-weight: 600;
                     padding: 0.15rem 0;
                     border: none;
+                    i{
+                        padding-right: 0.25rem;
+                    }
                 }
             }
             

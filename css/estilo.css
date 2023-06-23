@@ -129,7 +129,7 @@
 /* section links */
 .indexLinks {
   width: 100%;
-  background-color: #E2F3E9;
+  background-color: #FFFFFF;
 }
 .indexLinks .contenedorLinks {
   height: 100%;
@@ -465,6 +465,9 @@
   font-weight: 600;
   padding: 0.15rem 0;
   border: none;
+}
+.footer .divFooter .contacto div p i {
+  padding-right: 0.25rem;
 }
 
 /* TABLET */ /* DESKTOP */
