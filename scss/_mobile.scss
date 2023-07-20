@@ -372,13 +372,30 @@
             font-weight: 800;
             border-bottom: 1px solid $verde;
         }
+        .horarios{
+            @include cero;
+            padding-top: 0.5rem;
+            border-bottom: 1px solid $verde;
+            p{
+                @include cero;
+                @include letraInfo;
+                color: $oscuro;
+                font-size: 0.8rem;
+                text-align: center;
+                font-weight: 600;
+                padding: 0.15rem 0;
+                border: none;
+            }
+        }
         .contacto{
             @include flex;
             flex-direction: column;
+            border-bottom: 1px solid $verde;
             div{
-                padding: 0.5rem 0;
-                border-bottom: 0.5px solid $oscuro;
-                p{
+                @include cero;
+                padding-top: 0.5rem;
+                a{
+                    @include flex;
                     @include cero;
                     @include letraInfo;
                     color: $oscuro;
@@ -387,12 +404,21 @@
                     font-weight: 600;
                     padding: 0.15rem 0;
                     border: none;
+                    text-decoration: none;
+                    &:hover{
+                        color: $verde;
+                    }
                     i{
                         padding-right: 0.25rem;
                     }
                 }
             }
-            
+            .contactoTelefonos{
+                border-bottom: 1px solid $verde;
+            }
         }
+    }
+    #divFooter2{
+        padding-top: 0;
     }
 }

@@ -443,17 +443,13 @@
   font-weight: 800;
   border-bottom: 1px solid #2A4D14;
 }
-.footer .divFooter .contacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.footer .divFooter .horarios {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5rem;
+  border-bottom: 1px solid #2A4D14;
 }
-.footer .divFooter .contacto div {
-  padding: 0.5rem 0;
-  border-bottom: 0.5px solid #070707;
-}
-.footer .divFooter .contacto div p {
+.footer .divFooter .horarios p {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -466,8 +462,46 @@
   padding: 0.15rem 0;
   border: none;
 }
-.footer .divFooter .contacto div p i {
+.footer .divFooter .contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #2A4D14;
+}
+.footer .divFooter .contacto div {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5rem;
+}
+.footer .divFooter .contacto div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #070707;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.15rem 0;
+  border: none;
+  text-decoration: none;
+}
+.footer .divFooter .contacto div a:hover {
+  color: #2A4D14;
+}
+.footer .divFooter .contacto div a i {
   padding-right: 0.25rem;
+}
+.footer .divFooter .contacto .contactoTelefonos {
+  border-bottom: 1px solid #2A4D14;
+}
+.footer #divFooter2 {
+  padding-top: 0;
 }
 
 /* TABLET */ /* DESKTOP */
