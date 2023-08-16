@@ -1,4 +1,5 @@
-/* imports */ /* VARIABLES */
+/* imports */
+/* VARIABLES */
 /* colores */
 /* MIX IN */
 /* letra logo */
@@ -50,6 +51,7 @@
 }
 .navbar .container-fluid .navbarMobile .navbar-toggler {
   color: #070707;
+  margin-left: 1rem;
 }
 .navbar .container-fluid .navbar-collapse {
   font-family: "Roboto", sans-serif;
@@ -504,7 +506,8 @@
   padding-top: 0;
 }
 
-/* TABLET */ /* DESKTOP */
+/* TABLET */
+/* DESKTOP */
 /* generales */
 #inicio {
   background-color: #931F1D;
