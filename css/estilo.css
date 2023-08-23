@@ -10,7 +10,7 @@
 /* centrado */
 /* flex */
 /* MOBILE */
-/* NAVBAR */
+/* navbar */
 .navbar {
   margin: 0;
   padding: 0;
@@ -37,6 +37,7 @@
   color: #931F1D;
   font-size: 1.4rem;
   margin: 0;
+  padding: 0;
   padding-right: 1rem;
   border-right: 0.05rem solid #070707;
   transition: 0.4s;
@@ -51,6 +52,8 @@
 }
 .navbar .container-fluid .navbarMobile .navbar-toggler {
   color: #070707;
+  margin: 0;
+  padding: 0;
   margin-left: 1rem;
 }
 .navbar .container-fluid .navbar-collapse {
@@ -75,7 +78,7 @@
   border-bottom: 1px solid #2A4D14;
   width: 100%;
 }
-.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-toggle {
+.navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-toggler {
   text-decoration: none;
   color: #2A4D14;
   text-align: center;
@@ -103,7 +106,7 @@
   margin: 0;
   padding: 0.25rem;
   text-transform: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #2A4D14;
   text-align: center;
   transition: 0.3s all;
@@ -222,7 +225,7 @@
   font-weight: 700;
   text-align: right;
   margin: 0;
-  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+  padding: 0.5rem;
 }
 .indexPublicidades .publicidades .publiIndividual div p {
   color: #EE7B30;
@@ -233,17 +236,17 @@
   font-weight: 500;
   text-align: right;
   margin: 0;
-  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem;
 }
 .indexPublicidades .publicidades .publiIndividual div .h5Left {
   text-align: left;
   margin: 0;
-  padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+  padding: 0.5rem;
 }
 .indexPublicidades .publicidades .publiIndividual div .pLeft {
   text-align: left;
   margin: 0;
-  padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem;
 }
 .indexPublicidades .publicidades .publiIndividual img {
   width: 50%;
@@ -437,12 +440,11 @@
   text-align: center;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: 300;
-  color: #070707;
+  font-weight: 400;
+  color: #000000;
   font-size: 0.8rem;
-  font-weight: 800;
   border-bottom: 1px solid #2A4D14;
 }
 .footer .divFooter .horarios {
@@ -454,15 +456,17 @@
 .footer .divFooter .horarios p {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: 300;
-  color: #070707;
+  font-weight: 400;
+  color: #000000;
   font-size: 0.8rem;
   text-align: center;
-  font-weight: 600;
   padding: 0.15rem 0;
   border: none;
+}
+.footer .divFooter .horarios p i {
+  font-size: 0.9rem;
 }
 .footer .divFooter .contacto {
   display: flex;
@@ -482,13 +486,12 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: 300;
-  color: #070707;
+  font-weight: 400;
+  color: #000000;
   font-size: 0.8rem;
   text-align: center;
-  font-weight: 600;
   padding: 0.15rem 0;
   border: none;
   text-decoration: none;
@@ -497,6 +500,7 @@
   color: #2A4D14;
 }
 .footer .divFooter .contacto div a i {
+  font-size: 0.9rem;
   padding-right: 0.25rem;
 }
 .footer .divFooter .contacto .contactoTelefonos {
@@ -507,6 +511,95 @@
 }
 
 /* TABLET */
+@media (min-width: 600px) {
+  /* navbar */
+  .navbar .container-fluid .navbarMobile .navbar-brand {
+    font-size: 3rem;
+  }
+  .navbar .container-fluid .navbarMobile .navbar-brand img {
+    width: 80px;
+    height: 80px;
+  }
+  .navbar .container-fluid .navbarMobile .navbar-toggler {
+    font-size: 2rem;
+  }
+  /* section carousel */
+  .indexCarousel .carousel .carousel-inner div img {
+    height: 13rem;
+  }
+  /* section links */
+  .indexLinks .carouselLinks a {
+    font-size: 1.1rem;
+  }
+  /* section atencion */
+  .indexAtencion h3 {
+    font-size: 1.4rem;
+  }
+  /* section publicidades */
+  .indexPublicidades .publicidades .publiIndividual div h5 {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+  .indexPublicidades .publicidades .publiIndividual div p {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .indexPublicidades .publicidades .publiIndividual div .h5Left {
+    padding: 1rem;
+  }
+  .indexPublicidades .publicidades .publiIndividual div .pLeft {
+    padding: 1rem;
+  }
+  /* section medios de pago */
+  .indexMediosPago .h3MediosPago h3 {
+    font-size: 1.5rem;
+  }
+  .indexMediosPago .divMediosPago div i {
+    font-size: 1.8rem;
+  }
+  .indexMediosPago .divMediosPago div p {
+    font-size: 1rem;
+  }
+  /* section publicidades varias */
+  .indexPubli__varias .publicidadesVarias div img {
+    padding: 0 1.5rem;
+  }
+  .indexPubli__varias .publicidadesVarias div p {
+    font-size: 1.3rem;
+    padding: 0 3rem;
+  }
+  /* section servicios */
+  .indexServicios .servicios p {
+    font-size: 1.3rem;
+  }
+  /* ubicacion */
+  .indexUbicacion .ubicacion p {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  .indexUbicacion .ubicacion a p {
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1rem;
+  }
+  /* footer */
+  .footer .divFooter p {
+    font-size: 0.95rem;
+  }
+  .footer .divFooter .horarios p {
+    font-size: 0.95rem;
+  }
+  .footer .divFooter .horarios p i {
+    font-size: 1rem;
+  }
+  .footer .divFooter .contacto div a {
+    font-size: 0.95rem;
+  }
+  .footer .divFooter .contacto div a i {
+    font-size: 1rem;
+  }
+}
 /* DESKTOP */
 /* generales */
 #inicio {

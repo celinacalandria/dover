@@ -1,4 +1,164 @@
 /* TABLET */
 @media (min-width: 600px) {
+    /* navbar */
+    .navbar{
+        .container-fluid{
+            .navbarMobile{
+                .navbar-brand{
+                    font-size: 3rem;
+                    img{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+                .navbar-toggler{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
 
+    /* section carousel */
+    .indexCarousel{
+        .carousel{
+            .carousel-inner{
+                div{
+                    img{
+                        height: 13rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* section links */
+    .indexLinks{
+        .carouselLinks{
+            a{
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    /* section atencion */
+    .indexAtencion{
+        h3{
+            font-size: 1.4rem;
+        }
+    }
+
+    /* section publicidades */
+    .indexPublicidades{
+        .publicidades{
+            .publiIndividual{
+                div{
+                    h5{
+                        font-size: 1.8rem;
+                        padding: 1rem;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        padding: 1rem;
+                    }
+                    .h5Left{
+                        padding: 1rem;
+                    }
+                    .pLeft{
+                        padding:1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    /* section medios de pago */
+    .indexMediosPago{
+        .h3MediosPago{
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+        .divMediosPago{
+            div{
+                i{
+                    font-size: 1.8rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    /* section publicidades varias */
+    .indexPubli__varias{
+        .publicidadesVarias{
+            div{
+                img{
+                    padding: 0 1.5rem;
+                }
+                p{
+                    font-size: 1.3rem;
+                    padding: 0 3rem;
+                }
+
+            }
+        }
+    }
+
+    /* section servicios */
+    .indexServicios{
+        .servicios{
+            p{
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    /* ubicacion */
+    .indexUbicacion{
+        .ubicacion{
+            p{
+                padding-top: 1rem;
+                padding-bottom: 0.5rem;
+                font-size: 1rem;
+            }
+            a{
+                p{
+                    font-size: 1rem;
+                    padding-top: 0.8rem;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    /* footer */
+    .footer{
+        .divFooter{
+            p{
+                font-size: 0.95rem;
+            }
+            .horarios{
+                p{
+                    font-size: 0.95rem;
+                    i{
+                        font-size: 1rem;
+                    }
+                }
+
+            }
+            .contacto{
+                div{
+                    a{
+                        font-size: 0.95rem;
+                        i{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
 }

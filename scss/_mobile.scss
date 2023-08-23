@@ -1,6 +1,6 @@
 /* MOBILE */
 
-/* NAVBAR */
+/* navbar */
 .navbar{
     @include cero;
     padding-top: 0.5rem;
@@ -19,7 +19,7 @@
                 @include letraLogo;
                 color: $rojo;
                 font-size: 1.4rem;
-                margin: 0;
+                @include cero;
                 padding-right: 1rem;
                 border-right: 0.05rem solid $oscuro;
                 transition: 0.4s;
@@ -34,6 +34,7 @@
             }
             .navbar-toggler{
                 color: $oscuro;
+                @include cero;
                 margin-left: 1rem;
             }
         }
@@ -50,7 +51,7 @@
                     @include cero;
                     border-bottom: 1px solid $verde;
                     width: 100%;
-                    .dropdown-toggle{
+                    .dropdown-toggler{
                         text-decoration: none; 
                         color: $verde; 
                         text-align: center;
@@ -77,7 +78,7 @@
                                 margin: 0;
                                 padding: 0.25rem;
                                 text-transform: none;
-                                font-size: 0.9rem;
+                                font-size: 1rem;
                                 color: $verde;
                                 text-align: center;
                                 transition: 0.3s all;
@@ -188,7 +189,7 @@
                     font-weight: 700;
                     text-align: right;
                     margin: 0;
-                    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+                    padding: 0.5rem;
                 }
                 p{
                     color: $amarillo;
@@ -197,17 +198,17 @@
                     font-weight: 500;
                     text-align: right;
                     margin: 0;
-                    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+                    padding: 0.5rem;
                 }
                 .h5Left{
                     text-align: left;
                     margin: 0;
-                    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+                    padding: 0.5rem;
                 }
                 .pLeft{
                     text-align: left;
                     margin: 0;
-                    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+                    padding: 0.5rem;
                 }
             }
             img{
@@ -367,10 +368,9 @@
         p{
             text-align: center;
             @include cero;
-            @include letraInfo;
-            color: $oscuro;
+            @include letraDover;
+            color: $negro;
             font-size: 0.8rem;
-            font-weight: 800;
             border-bottom: 1px solid $verde;
         }
         .horarios{
@@ -379,13 +379,15 @@
             border-bottom: 1px solid $verde;
             p{
                 @include cero;
-                @include letraInfo;
-                color: $oscuro;
+                @include letraDover;
+                color: $negro;
                 font-size: 0.8rem;
                 text-align: center;
-                font-weight: 600;
                 padding: 0.15rem 0;
                 border: none;
+                i{
+                    font-size: 0.9rem
+                }
             }
         }
         .contacto{
@@ -398,11 +400,10 @@
                 a{
                     @include flex;
                     @include cero;
-                    @include letraInfo;
-                    color: $oscuro;
+                    @include letraDover;
+                    color: $negro;
                     font-size: 0.8rem;
                     text-align: center;
-                    font-weight: 600;
                     padding: 0.15rem 0;
                     border: none;
                     text-decoration: none;
@@ -410,6 +411,7 @@
                         color: $verde;
                     }
                     i{
+                        font-size: 0.9rem;
                         padding-right: 0.25rem;
                     }
                 }
