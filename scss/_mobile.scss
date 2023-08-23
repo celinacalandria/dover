@@ -18,7 +18,7 @@
                 text-decoration: none;
                 @include letraLogo;
                 color: $rojo;
-                font-size: 1.4rem;
+                font-size: 1.5rem;
                 @include cero;
                 padding-right: 1rem;
                 border-right: 0.05rem solid $oscuro;
@@ -31,6 +31,9 @@
                     height: 50px;
                     transition: 0.4s;
                 }
+            }
+            #paradorDoverDesktop{
+                display: none;
             }
             .navbar-toggler{
                 color: $oscuro;
@@ -383,7 +386,7 @@
                 color: $negro;
                 font-size: 0.8rem;
                 text-align: center;
-                padding: 0.15rem 0;
+                padding: 0.35rem 0;
                 border: none;
                 i{
                     font-size: 0.9rem
@@ -404,7 +407,7 @@
                     color: $negro;
                     font-size: 0.8rem;
                     text-align: center;
-                    padding: 0.15rem 0;
+                    padding: 0.35rem 0;
                     border: none;
                     text-decoration: none;
                     &:hover{

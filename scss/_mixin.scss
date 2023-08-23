@@ -7,6 +7,10 @@
     font-weight: 800;
 }
 
+@mixin letraSubtitulos {
+    font-family: 'Acme', sans-serif;
+}
+
 /* letra info */
 @mixin letraInfo{
     font-family: 'Roboto', sans-serif;

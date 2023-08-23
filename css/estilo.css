@@ -35,7 +35,7 @@
   font-style: normal;
   font-weight: 800;
   color: #931F1D;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
   padding-right: 1rem;
@@ -49,6 +49,9 @@
   width: 50px;
   height: 50px;
   transition: 0.4s;
+}
+.navbar .container-fluid .navbarMobile #paradorDoverDesktop {
+  display: none;
 }
 .navbar .container-fluid .navbarMobile .navbar-toggler {
   color: #070707;
@@ -462,7 +465,7 @@
   color: #000000;
   font-size: 0.8rem;
   text-align: center;
-  padding: 0.15rem 0;
+  padding: 0.35rem 0;
   border: none;
 }
 .footer .divFooter .horarios p i {
@@ -492,7 +495,7 @@
   color: #000000;
   font-size: 0.8rem;
   text-align: center;
-  padding: 0.15rem 0;
+  padding: 0.35rem 0;
   border: none;
   text-decoration: none;
 }
@@ -601,6 +604,109 @@
   }
 }
 /* DESKTOP */
+@media (min-width: 991px) {
+  /* navbar */
+  .navbar .container-fluid .navbarMobile {
+    width: 35%;
+  }
+  .navbar .container-fluid .navbarMobile #paradorDoverDesktop {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 0.75rem;
+    border-right: 0.05rem solid #070707;
+  }
+  .navbar .container-fluid .navbarMobile #paradorDoverDesktop img {
+    width: 130px;
+    height: 130px;
+    transition: 0.4s;
+  }
+  .navbar .container-fluid .navbarMobile #paradorDoverDesktop .navbar-brand {
+    text-decoration: none;
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    font-weight: 800;
+    color: #931F1D;
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding: 0 1rem;
+    transition: 0.4s;
+    border-right: none;
+  }
+  .navbar .container-fluid .navbarMobile #paradorDoverDesktop .navbar-brand:hover {
+    color: #530907;
+  }
+  .navbar .container-fluid .navbarMobile #paradorDoverMobile {
+    display: none;
+  }
+  .navbar .container-fluid .navbar-collapse {
+    font-size: 1.3rem;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Alegreya SC", serif;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav {
+    padding: 0;
+    flex-direction: row;
+    width: 100%;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+    padding: 0 1rem;
+    border-bottom: none;
+    font-family: "Acme", sans-serif;
+    text-transform: uppercase;
+    transition: 0.3s all;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:hover .nav-link {
+    background-color: #FFFFFF;
+    color: #2A4D14;
+    font-size: 1.5rem;
+    transition: 0.3s all;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
+    font-size: 1.2rem;
+  }
+  .navbar .container-fluid .navbar-collapse .navbar-nav #li1 {
+    border-top: none;
+  }
+  /* section carousel */
+  .indexCarousel .carousel .carousel-inner div img {
+    height: 22.5rem;
+  }
+  /* section links */
+  .indexLinks .contenedorLinks {
+    height: 12rem;
+    flex-direction: row;
+    padding: 0;
+  }
+  .indexLinks .contenedorLinks a {
+    font-size: 1.6rem;
+    border-left: 1px solid #2A4D14;
+    border-bottom: none;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .indexLinks .contenedorLinks a i {
+    font-size: 1.8rem;
+  }
+  .indexLinks .contenedorLinks .link1 {
+    border-top: none;
+    border-left: none;
+  }
+}
 /* generales */
 #inicio {
   background-color: #931F1D;
